@@ -1,0 +1,37 @@
+[
+    {
+	"TARGETS": ["MPRAGE_192sl.nii.gz"],
+	"SUBDIR": "T1",
+	"FNAME": "t1.nii.gz"
+    },
+    {
+	"TARGETS": ["DTI_2mm_iso.nii.gz"],
+	"SUBDIR": "DTI",
+	"FNAME": "dti.nii.gz"
+    },
+    {
+	"TARGETS": ["DTI_2mm_iso.bval"],
+	"SUBDIR": "DTI",
+	"FNAME": "dti.bval"
+    },
+    {
+	"TARGETS": ["DTI_2mm_iso.bvec"],
+	"SUBDIR": "DTI",
+	"FNAME": "dti.bvec"
+    },
+    {
+	"TARGETS": ["DTI_2mm_iso.json"],
+	"SUBDIR": "DTI",
+	"FNAME": "dti.json"
+    },
+    {
+	"TARGETS": ["b0_PA.nii.gz","b0_PA_TRACEW.nii.gz"],
+	"SUBDIR": "B0_PA",
+	"FNAME": "b0_pa.nii.gz"
+    },
+    {
+	"TARGETS": ["b0_PA.json","b0_PA_TRACEW.json"],
+	"SUBDIR": "B0_PA",
+	"FNAME": "b0_pa.json"
+    }
+]

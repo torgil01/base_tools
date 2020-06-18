@@ -1,4 +1,11 @@
 # Bash readme
+There are several ways to run a bash script. Say you have a script called `test.sh`. (Note that you can call it anything you want, 
+but it is a good idea to call the file `*.sh` so you know that it is a bash script.  
+
+(1) set the file to be executable: write `chmod u+x test.sh`. You can then run the file by typing `./test.sh`.
+(2) run the script by typing `bash test.sh`
+
+
 
 ## Variables 
 

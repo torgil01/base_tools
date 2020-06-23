@@ -35,18 +35,44 @@ done
 ## Control structures
 
 ### For loops
+For-loops are ideal for doing the same operation on a list of items. 
 
 ```bash
+# simple loop from list
+for i in {0..3}
+do
+  echo "Number: $i"
+done
+
+
+# loop four times 
+for ((a=1; a <= 5 ; a++))
+do
+   echo $a
+done
+
+
+# loop over elements in array. Note the way the array is expanded
 files=(a b c d)
-for f in ${files[@]}; do
+for f in ${files[@]} 
+do
     echo $f
 done
 ```
 
 ### If statements
+If statemenst are used to test for some logical test. In bash you write a logical test in square brackets : `[ logical test ]`. We say *logical test* since the statement inside the brackets can only be *true* pr *false*. If statemenst are useful for branching your code. Say if your script will crash if some file does not exist. Then it is useful to add a *if-statement* to check the existence of the file beforehand.   
 
 
+```bash
+# Basic if statement
+if [ $1 -gt 100 ]
+then
+    echo "$1 is greater than 100"
+fi
 
+
+```
 
 
 

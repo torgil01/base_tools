@@ -1,10 +1,22 @@
 # Bash readme
+
+Quickguide to BASH.
+
+There is also several resources available:
+
+[Reference guide] https://www.gnu.org/software/bash/manual/html_node/index.html#Top
+[Guide] https://github.com/Idnan/bash-guide
+[Cheatsheet] https://devhints.io/bash
+
+
+
+## Running bash scripts
 There are several ways to run a bash script. Say you have a script called `test.sh`. (Note that you can call it anything you want, 
 but it is a good idea to call the file `*.sh` so you know that it is a bash script.  
 
-(1) set the file to be executable: write `chmod u+x test.sh`. You can then run the file by typing `./test.sh`.
-(2) run the script by typing `bash test.sh`
-
+1. set the file to be executable: write `chmod u+x test.sh`. You can then run the script by typing `./test.sh`.
+2. run the script by typing `bash test.sh` 
+3. make the file executable and place the script in a *scripts* folder. If you add a folder to your `PATH` variable, you can run the run the script anywhere, by just typing `test.sh`
 
 
 ## Variables 
@@ -16,7 +28,7 @@ Declare variable.
 file=readme.text
 echo $file
 
-# declare string
+# declare string, note the quotation marks around the text.
 message="hello there"
 echo $message
 

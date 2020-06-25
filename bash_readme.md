@@ -47,6 +47,7 @@ files=(0004_FA 0009_FA 0010_FA 0061_FA)
 for f in ${files[@]}; do
     echo $f
 done
+``` 
 
 ### Variables from input arguments
 It is easy to read input arguments to a script. For example if you run a script `add.sh` with two input arguments "2" and "4", this would be `add.sh 2 4`. You can access the input via the `$1`and `$2` variables, and if you had more input argumenst there would be a `$3` and `$4` etc. 

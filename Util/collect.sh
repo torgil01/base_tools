@@ -1,8 +1,8 @@
 #!/bin/bash
 # Convert "raw" study data to structured format
-# Image file names with differnet names are mapped to to same name
-# making automated processing easy. The file mapping is specified in the json file
-#
+# Image file types with different names are mapped to the same name
+# making automated processing easy. The file mapping is specified by a
+# json file
 
 function usage () {    
     echo "Usage: "

@@ -168,7 +168,7 @@ echo $dir
 
 
 # Troubleshooting
-Sometimes the scripts does not work, typically due to some typing mistake. To find the error it helps to read the error message (if any) carefully in order to locate the error. You can also run the script in *debug mode* which should show you the line where the error is. Another option is to print variable names and other diagnostics in the script. 
+Sometimes the scripts does not work, typically due to some typing mistake. To find the error it helps to read the error message (if any) carefully in order to locate the error. You can also run the script in *debug mode* (write: `bash -x myscript.sh`) which should show you the line where the error is.  Another option is to print variable names and other diagnostics in the script. 
 
 
 

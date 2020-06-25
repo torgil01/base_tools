@@ -1,12 +1,11 @@
 # Bash readme
 
 Quickguide to BASH.
+There are also several goides on the web: 
 
-There is also several resources available:
-
-[Reference guide] https://www.gnu.org/software/bash/manual/html_node/index.html#Top
-[Guide] https://github.com/Idnan/bash-guide
-[Cheatsheet] https://devhints.io/bash
+* [Reference guide] https://www.gnu.org/software/bash/manual/html_node/index.html#Top
+* [Guide] https://github.com/Idnan/bash-guide
+* [Cheatsheet] https://devhints.io/bash
 
 
 

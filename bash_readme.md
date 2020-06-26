@@ -9,7 +9,6 @@ There are also several guides on the web:
 * __A cheatsheet:__ https://devhints.io/bash
 
 
-
 ## Running bash scripts
 There are several ways to run a bash script. Say you have a script called `test.sh`. (Note that you can call it anything you want, 
 but it is a good idea to let the file end with `*.sh` so you know that it is a bash script.  
@@ -18,6 +17,12 @@ but it is a good idea to let the file end with `*.sh` so you know that it is a b
 2. run the script by typing `bash test.sh` 
 3. make the file executable and place the script in a *scripts* folder. If you add a folder to your `PATH` variable, you can run the run the script anywhere, by just typing `test.sh`
 
+
+## Writing bash scripts 
+* Use a text editor with *syntax highlighting* 
+* Start your acript with `#!/bin/bash` which tells the sustem that this is a bash script
+* Indent your code so that it is easy to read
+* Write comments in your code -- comment starts with a `#`
 
 ## Variables 
 
@@ -89,7 +94,9 @@ done
 ```
 
 ### If statements
-If statemenst are used to test for some logical test. In bash you write a logical test in square brackets : `[ logical test ]`. We say *logical test* since the statement inside the brackets can only be *true* pr *false*. If statemenst are useful for branching your code. Say if your script will crash if some file does not exist. Then it is useful to add a *if-statement* to check the existence of the file beforehand.   
+If statemenst are used to test for some logical test. In bash you write a logical test in square brackets : `[ logical test ]`. We say *logical test* since
+the statement inside the brackets can only be *true* pr *false*. If statemenst are useful for branching your code. Say if your script will crash if some 
+file does not exist. Then it is useful to add a *if-statement* to check the existence of the file beforehand.   
 
 
 ```bash
@@ -134,7 +141,9 @@ find . -type f -name "*.gz"
 work_dir=${HOME}/Documents
 find $work_dir -type f -name "*.gz"
 
-# assign results from find to variable, in the command below all files ending with `*.gz` will be listed in the `$gz_files` variable. Note that if there are no hits,  `$gz_files`  will be empty. 
+# assign results from find to variable, in the command below all files ending with
+# `*.gz` will be listed in the `$gz_files` variable. 
+# Note that if there are no hits,  `$gz_files`  will be empty. 
 gz_files=$(find $work_dir -type f -name "*.gz")
 
 # print only filename 
